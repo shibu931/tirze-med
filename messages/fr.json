@@ -1,0 +1,182 @@
+
+{
+    "Common": {
+      "disclaimer_txt": "Toutes les propriétés mentionnées ci-dessous ont été observées lors de tests en laboratoire. Elles sont fournies à titre informatif uniquement. Les informations contenues dans les descriptions ne sont pas approuvées par l'EFSA, le GIS ou le GIF. Cette substance n'est pas un produit alimentaire ni un complément alimentaire. Elle ne convient pas à la consommation humaine. Le produit est classé comme réactif chimique / matériau de référence autorisé à la vente dans l'UE. Il ne peut être utilisé que pour des recherches scientifiques. Des informations supplémentaires sur le produit sont disponibles dans la fiche de données de sécurité, que nous mettons à disposition. Les produits sont disponibles pour les institutions ou les particuliers liés à des activités de recherche ou de laboratoire.",
+      "add_to_cart": "Ajouter au panier",
+      "reviews": "Avis",
+      "Star": "Étoile",
+      "blog": "Blogs",
+      "toc": "Table des matières",
+      "total": "Total",
+      "delivery_fee": "Frais de livraison",
+      "subtotal": "Sous-total",
+      "contact_title": "Contact et Support",
+      "contact_desc": "Vous avez des questions sur la thérapie à base de tirzepatide ? Vous souhaitez en savoir plus sur des produits spécifiques comme le sémaglutide ou le retatrutide ? Contactez-nous dès aujourd'hui ! Notre équipe d'experts est prête à vous fournir toutes les informations nécessaires. Il vous suffit de visiter notre page de contact ou d'appeler notre service client - nous sommes à votre disposition."
+    },
+    "HomePage": {
+      "title": "Bienvenue dans notre boutique de réactifs chimiques de la plus haute qualité.",
+      "banner_btn": "Parcourir la boutique",
+      "blog_btn": "Voir les blogs"
+    },
+    "Form": {
+      "title": "Contactez-nous",
+      "name": "Nom",
+      "phone": "Numéro de téléphone",
+      "phone_placeholder": "Entrez votre numéro de téléphone",
+      "name_placeholder": "Entrez votre nom complet",
+      "email": "Email",
+      "email_placeholder": "Votre adresse e-mail",
+      "message": "Message",
+      "message_placeholder": "Votre commentaire",
+      "review_placeholder": "Votre avis",
+      "checkbox_label": "Je consens au traitement de mes données personnelles contenues dans le formulaire de contact pour les besoins nécessaires à la réalisation et au suivi du processus de contact conformément à la loi du 29.08.1997 sur la protection des données personnelles (Journal des Lois de 2002, n° 101, item 926 avec modifications ultérieures).",
+      "Submit": "Envoyer",
+      "loading": "Traitement",
+      "search_placeholder": "Rechercher des produits",
+      "review_form_title": "Laisser un avis",
+      "rating_placeholder": "Choisissez une note",
+      "review_post_btn": "Publier l'avis",
+      "checkout_form_title": "Adresse",
+      "delivery_opt": "Options de livraison",
+      "pmn": "Numéro de point relais",
+      "country": "Pays",
+      "country_placeholder": "Entrez votre pays",
+      "address": "Adresse",
+      "address_placeholder": "Entrez l'adresse complète - Numéro de maison, Rue, Ville",
+      "name_required": "Le nom est requis",
+      "email_required": "L'email est requis",
+      "email_invalid": "Email invalide",
+      "message_required": "Le message est requis",
+      "submission_failed": "Échec de l'envoi",
+      "submission_success": "Succès"
+    },
+    "Footer": {
+      "contact_info": "Informations de contact",
+      "imp_link": "Liens importants",
+      "community": "Communauté",
+      "footer_text": "Votre partenaire pour atteindre vos objectifs de santé grâce à des méthodes fiables et facilement accessibles.",
+      "top_products": "Meilleurs produits"
+    },
+    "Links": {
+      "FAQ's": "FAQ",
+      "Contact": "Contact",
+      "Delivery-and-Payment": "Livraison et paiement",
+      "Shop Rules": "Conditions générales",
+      "Privacy": "Confidentialité",
+      "Affiliate Program": "Programme d'affiliation",
+      "Blogs": "Blogs",
+      "Research": "Recherche",
+      "Shop": "Boutique",
+      "What is GLP+1+GIP": "Qu'est-ce que GLP+1+GIP",
+      "How GLP-1+GIP works": "Comment fonctionne GLP-1+GIP",
+      "Effects after GLP-1+GIP": "Effets après GLP-1+GIP",
+      "GLP-1+GIP vs other analogues": "GLP-1+GIP vs autres analogues",
+      "GLP-1+GIP": "GLP-1+GIP",
+      "Home": "Accueil"
+    },
+    "Cart": {
+      "cart_title": "PRODUITS DANS LE PANIER",
+      "empty_cart": "Aucun produit dans le panier",
+      "cart_ttl_amt": "Montant total du panier",
+      "chkt": "Passer la commande",
+      "price": "Prix"
+    },
+    "Product_page": {
+      "weight_loss": "Programme de perte de poids",
+      "legal_desc": "La substance n'est pas un produit alimentaire ni un complément alimentaire, elle ne convient pas à la consommation humaine. Le produit est classé comme réactif chimique autorisé à la vente dans l'Union européenne, il ne peut être utilisé que pour des recherches scientifiques.",
+      "usp": {
+        "return_usp": "Politique de retour sous 14 jours",
+        "lab_ql_usp": "Qualité laboratoire",
+        "shopping_usp": "Achats sécurisés",
+        "shipping": "Délai d'expédition",
+        "shipping_time": "1-2 jours ouvrables",
+        "quality": "garantie de qualité",
+        "stand_lab": "standard de laboratoire"
+      },
+      "product_warning": {
+        "title": "Produit destiné à la recherche",
+        "additional_info": "INFORMATIONS COMPLÉMENTAIRES :",
+        "point_one": "Le produit (substance) n'est pas un produit alimentaire ni un complément alimentaire, il ne convient pas à la consommation humaine.",
+        "point_two": "Tenir hors de portée des enfants.",
+        "point_three": "Conserver le récipient bien fermé.",
+        "point_four": "Conserver dans un endroit sec, frais et à l'abri de la lumière ; protéger de l'humidité.",
+        "point_five": "Conserver uniquement dans son emballage d'origine.",
+        "point_six": "Éviter tout contact pendant la grossesse et l'allaitement.",
+        "point_seven": "En cas de malaise ou d'effets indésirables liés au contact avec la substance, consulter un médecin."
+      },
+      "seo": {
+        "title_suffix": "Meilleure Solution pour la Perte de Poids | Tirze-Med",
+        "description": "Achetez {productName} - Peptide de perte de poids de la plus haute qualité avec des résultats certifiés. Livraison rapide en France. Garantie 100% qualité.",
+        "keywords": "acheter {productName}, perte de poids, France, certifié, peptide",
+        "og_title": "Solution de Qualité Supérieure pour la Perte de Poids - {productName}",
+        "og_description": "Découvrez {productName} - Solution efficace pour le contrôle du poids avec des résultats cliniques. Commandez maintenant !",
+        "twitter_title": "Perte de Poids Efficace avec {productName}",
+        "twitter_description": "Obtenez {productName} pour les meilleurs résultats en contrôle du poids. Qualité certifiée. Commandez maintenant !"
+      },
+      "price_label": "PRIX",
+      "product_image_alt": "Présentation visuelle du produit"
+    },
+    "Review_page": {
+      "based_on_ratings": "Basé sur {count} {count, plural, one {avis} other {avis}}",
+      "load_more": "Charger plus d'avis",
+      "loading": "Chargement...",
+      "no_reviews": "Aucun avis publié pour le moment",
+      "average_rating": "Note moyenne"
+    },
+    "Checkout": {
+      "chktout": "Paiement",
+      "ordr_summary": "Récapitulatif de la commande",
+      "delivery_charges": "Frais de livraison"
+    },
+    "Order_Info_Page": {
+      "order_msg": "Notre conseiller client vous enverra le compte bancaire sur lequel vous devrez effectuer le paiement dans les 2 heures suivant la commande. Votre commande ne sera confirmée qu'après réception réussie du paiement.",
+      "detail_info": "Détails",
+      "orderId": "Numéro de commande",
+      "date": "Passé le",
+      "shipping_address": "Adresse de livraison",
+      "ordr_status": "Statut de la commande",
+      "status": "statut",
+      "ordrd_products": "Produits commandés"
+    },
+    "BlogListPage": {
+      "seo": {
+        "title": "Tous les Articles | Blog Tirze-Med",
+        "description": "Parcourez nos articles complets et recherches scientifiques sur les peptides de perte de poids, l'optimisation du métabolisme et le biohacking.",
+        "keywords": "articles de blog, recherches sur la perte de poids, études sur les peptides, biohacking, métabolisme",
+        "og_title": "Collection Complète d'Articles - Recherche Tirze-Med",
+        "og_description": "Explorez tous nos articles détaillés et travaux de recherche sur les solutions modernes de perte de poids et d'optimisation métabolique.",
+        "og_image_alt": "Collection d'articles du blog Tirze-Med",
+        "twitter_title": "Articles de Recherche sur la Perte de Poids | Tirze-Med",
+        "twitter_description": "Découvrez notre collection complète d'articles basés sur la recherche concernant les thérapies peptidiques et l'optimisation métabolique."
+      },
+      "title": "Blog de Recherche",
+      "description": "Les derniers articles et recherches sur les thérapies peptidiques, le contrôle du poids et l'optimisation du métabolisme",
+      "reading_time": "min de lecture",
+      "featured_image_alt": "Image principale pour l'article : {title}",
+      "pagination": {
+        "previous": "Précédent",
+        "next": "Suivant",
+        "page": "Page {current} sur {total}"
+      },
+      "schema": {
+        "name": "Tous les Articles",
+        "description": "Liste complète des articles et recherches scientifiques sur les peptides de perte de poids"
+      },
+      "breadcrumb": {
+        "home": "Accueil",
+        "blog": "Blog"
+      }
+    },
+    "ArticlePage": {
+      "seo": {
+        "title_suffix": "| Tirze-Med",
+        "default_description": "Lisez notre article détaillé sur",
+        "default_keywords": "article, post de blog, recherche"
+      },
+      "breadcrumb": {
+        "home": "Accueil",
+        "blog": "Blog"
+      },
+      "no_article": "Article non trouvé"
+    }
+  }
