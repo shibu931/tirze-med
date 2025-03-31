@@ -206,7 +206,7 @@ export default async function Home() {
           </section>
 
           <section className="pt-20 px-4">
-            <div className="grid grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8">
               <div className="my-auto">
                 <h2 className="!text-3xl !font-bold uppercase !text-gray-900 !mb-4">Do you want to buy? Perfect.</h2>
                 <p className="text-gray-700 mb-1.5">But you also have to understand what you're doing.</p>

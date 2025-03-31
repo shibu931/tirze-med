@@ -16,18 +16,18 @@ const poppins = Poppins({
 const metadataTranslations = {
   en: {
     title: "Tirze-Med | Tirzepatide in France | GIP + GLP-1 - Check it out",
-    description: "Tirzepatide in France – GIP + GLP-1 health revolution. Order now on Tirze-Med and discover its unique benefits!",
+    description: "Discover Tirze-Med France — your trusted source for cutting-edge peptides tirzepatide, semaglutide, ensuring top-tier quality for rigorous scientific research.",
     keywords: ["Tirzepatide", "tirzepatide weight loss", "tirzepatide compound", "compound tirzepatide", "semaglutide", "semaglutide weight loss", "compounded semaglutide", "Retatrutide", "retatrutide peptide", "retatrutide research peptide", "retatrutide dosage", "Cagrilintide", "cagrilintide peptide", "cagrilintide dosage"],
     openGraph: {
-      images: ['/og-en.jpg'],
+      images: ['/1.webp'],
     }
   },
   fr: {
     title: "Tirzépatide en France | GIP + GLP-1 | Tirze-Med - Commandez",
-    description: "Tirzépatide en France – Révolution GIP + GLP-1 pour la santé. Commandez dès maintenant sur Tirze-Med et découvrez ses bienfaits uniques !",
+    description: "Découvrez Tirze-Med France, votre source de confiance pour les peptides de pointe tirzepatide, sémaglutide, garantissant une qualité de premier ordre pour une recherche scientifique rigoureuse.",
     keywords: ["Tirzépatide", "tirzépatide en france", "tirzépatide france acheter", "Sémaglutide", "sémaglutide france", "sémaglutide perte de poids", "Retatrutide", "retatrutide dosage", "retatrutide france", "Cagrilintide", "cagrilintide and semaglutide 2.4 mg"],
     openGraph: {
-      images: ['/og-fr.jpg'],
+      images: ['/1.webp'],
     }
   }
 };
