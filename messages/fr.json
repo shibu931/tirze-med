@@ -124,7 +124,7 @@
       "average_rating": "Note moyenne"
     },
     "Checkout": {
-      "chktout": "Paiement",
+      "chktout": "Vérifier",
       "ordr_summary": "Récapitulatif de la commande",
       "delivery_charges": "Frais de livraison"
     },

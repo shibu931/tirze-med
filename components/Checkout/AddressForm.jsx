@@ -23,7 +23,7 @@ const AddressForm = () => {
     phoneNumber: '',
     email: '',
     address: '',
-    country: 'Poland',
+    country: 'France',
   });
 
   const handleDeliveryOptionChange = (option) => {
@@ -85,16 +85,6 @@ const AddressForm = () => {
               className="mr-2 checked:accent-fuchsia-800 hover:cursor-pointer"
             />
             DHL
-          </label>
-          <label className={`flex items-center font-bold ${deliveryOption === 'inpost' ? 'text-fuchsia-900' : 'text-gray-700'} `}>
-            <input
-              type="radio"
-              value="inpost"
-              checked={deliveryOption === 'inpost'}
-              onChange={() => handleDeliveryOptionChange('inpost')}
-              className="mr-2 checked:accent-fuchsia-800 hover:cursor-pointer"
-            />
-            InPost Parcel Locker
           </label>
         </div>
       </div>

@@ -123,7 +123,7 @@
     "average_rating": "Average rating"
   },
   "Checkout":{
-    "chktout":"Country",
+    "chktout":"Checkout",
     "ordr_summary":"Order Summary",
     "delivery_charges":"Delivery charges"
   },
