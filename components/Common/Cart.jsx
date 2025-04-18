@@ -13,7 +13,7 @@ import {
 import { BsCart2 } from "react-icons/bs";
 import Image from 'next/image';
 import { RxCross1 } from "react-icons/rx";
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';;
 import { currency } from '@/lib/constants/commonName';
 import { useCart } from '@/context/CartContext';
 import { useTranslations } from 'next-intl';

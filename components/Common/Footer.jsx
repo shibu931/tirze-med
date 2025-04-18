@@ -2,10 +2,9 @@ import { footerLinks } from '@/lib/constants/links'
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import React from 'react'
-import { FaInstagram, FaWhatsapp, FaFacebookF } from "react-icons/fa";
-import { RiTwitterXLine } from "react-icons/ri";
 import Image from 'next/image';
 import NewsletterForm from './NewsletterForm';
+import { getLocale } from 'next-intl/server';
 
 const Footer = () => {
   const t = useTranslations('Footer')

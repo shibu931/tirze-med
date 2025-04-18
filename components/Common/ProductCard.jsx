@@ -1,6 +1,6 @@
 import { currency } from '@/lib/constants/commonName'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '@/i18n/navigation';
 import React from 'react'
 import { IoCart } from "react-icons/io5";
 import AddToCartBtn from './AddToCartBtn'

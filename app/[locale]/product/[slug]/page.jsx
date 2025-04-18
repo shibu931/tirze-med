@@ -6,12 +6,13 @@ import { ImLab } from "react-icons/im";
 import { IoCart, IoShieldCheckmarkSharp } from "react-icons/io5";
 import { TbTruckReturn } from "react-icons/tb";
 import RatingStar from '@/components/Common/RatingStar'
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';;
 import { currency } from '@/lib/constants/commonName';
 import ReviewPage from '@/components/Common/Review/ReviewPage';
 import { getProduct } from '@/lib/actions/product.action';
 import AddToCartBtn from '@/components/Common/AddToCartBtn';
 import { getTranslations } from 'next-intl/server';
+import { getArticle } from '@/lib/actions/article.action';
 
 export async function generateMetadata({ params }) {
   const { slug } = params;
@@ -131,8 +132,9 @@ const BreadcrumbSchema = () => {
 const page = async ({ params }) => {
   const t = await getTranslations('Common');
   const p = await getTranslations('Product_page');
-  const { slug } = await params
+  const { slug,locale } = await params
   const { data: product } = await getProduct(slug)
+  const { article } = await getArticle(locale, slug);
   const simplifiedProduct = {
     productId: product.productId,
     slug: product.slug,
@@ -212,6 +214,13 @@ const page = async ({ params }) => {
           </div>
         </div>
 
+      </section>
+      <section className="my-14 article">
+        {
+          article ? (<ArticlePage content={article && article.content} />)
+            :
+            ''
+        }
       </section>
 
       <section className='my-12'>
