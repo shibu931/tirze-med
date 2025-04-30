@@ -13,9 +13,10 @@ import { getProduct } from '@/lib/actions/product.action';
 import AddToCartBtn from '@/components/Common/AddToCartBtn';
 import { getTranslations } from 'next-intl/server';
 import { getArticle } from '@/lib/actions/article.action';
+import ArticlePage from '@/components/Common/ArticlePage'
 
 export async function generateMetadata({ params }) {
-  const { slug } = params;
+  const { slug } = await params;
   const { data: product } = await getProduct(slug);
   const t = await getTranslations('Product_page');
   return {

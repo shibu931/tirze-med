@@ -7,6 +7,7 @@ import { Toaster } from "@/components/ui/sonner";
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -155,6 +156,17 @@ export default async function RootLayout({ children, params }) {
     <html lang={locale}>
       <head>
         <StructuredData locale={locale} />
+        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-5MDTGZVQZF"></Script>
+        <Script>
+          {
+            `window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-5MDTGZVQZF');
+            `
+          }
+        </Script>
+        <meta name="google-site-verification" content="zlL1btm6bsuaDjpeOYHp2S5EFif6M_dpmY0Rsntq3vo" />
       </head>
       <body
         className={`${poppins.className} antialiased`}
