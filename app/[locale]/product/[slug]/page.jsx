@@ -14,6 +14,7 @@ import { getTranslations } from 'next-intl/server';
 import { getArticle } from '@/lib/actions/article.action';
 import ArticlePage from '@/components/Common/ArticlePage'
 import ProductImage from '@/components/ProductPage/ProductImage';
+import { currency } from '@/lib/constants/commonName';
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
