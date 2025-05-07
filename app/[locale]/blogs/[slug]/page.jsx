@@ -28,7 +28,7 @@ export async function generateMetadata({ params }) {
       type: 'article',
       publishedTime: article.createdAt,
       modifiedTime: article.updatedAt,
-      authors: ['Aakib'],
+      authors: ['admin'],
       tags: keywordsArray,
       images: [
         {
@@ -149,7 +149,7 @@ const page = async ({ params }) => {
   return (
     <main className='grid grid-cols-1 lg:grid-cols-10 lg:gap-4 gap-y-2 gap-x-0'>
       <BlogPostSchema article={article && article} locale={locale} />
-      <BreadcrumbSchema article={article && article} locale={locale} />
+      {/* <BreadcrumbSchema article={article && article} locale={locale} /> */}
       <PublisherSchema />
       <aside className='col-span-3 h-auto relative'>
         <TableOfContent content={article?.content} />

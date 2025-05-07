@@ -7,7 +7,6 @@ import { IoCart, IoShieldCheckmarkSharp } from "react-icons/io5";
 import { TbTruckReturn } from "react-icons/tb";
 import RatingStar from '@/components/Common/RatingStar'
 import { Link } from '@/i18n/navigation';;
-import { currency } from '@/lib/constants/commonName';
 import ReviewPage from '@/components/Common/Review/ReviewPage';
 import { getProduct } from '@/lib/actions/product.action';
 import AddToCartBtn from '@/components/Common/AddToCartBtn';
@@ -24,10 +23,10 @@ export async function generateMetadata({ params }) {
     description: t('seo.description', { productName: product.productName }),
     keywords: product?.keywords,
     alternates: {
-      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/products/${slug}`,
+      canonical: `${process.env.NEXT_PUBLIC_BASE_URL}/product/${slug}`,
       languages: {
-        'en': `${process.env.NEXT_PUBLIC_BASE_URL}/en/products/${slug}`,
-        'pl': `${process.env.NEXT_PUBLIC_BASE_URL}/pl/products/${slug}`,
+        'en': `${process.env.NEXT_PUBLIC_BASE_URL}/en/product/${slug}`,
+        'pl': `${process.env.NEXT_PUBLIC_BASE_URL}/pl/product/${slug}`,
       },
     },
     openGraph: {
@@ -41,7 +40,7 @@ export async function generateMetadata({ params }) {
           alt: product.productName,
         },
       ],
-      url: `${process.env.NEXT_PUBLIC_BASE_URL}/products/${slug}`,
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}/product/${slug}`,
       type: 'website',
     },
     twitter: {
@@ -76,8 +75,8 @@ const ProductSchema = ({ product }) => {
     },
     "offers": {
       "@type": "Offer",
-      "url": `${process.env.NEXT_PUBLIC_BASE_URL}/products/${product.slug}`,
-      "priceCurrency": currency,
+      "url": `${process.env.NEXT_PUBLIC_BASE_URL}/product/${product.slug}`,
+      "priceCurrency": 'EUR',
       "price": product.productPrice,
       "availability": "https://schema.org/InStock",
       "itemCondition": "https://schema.org/NewCondition"
@@ -141,22 +140,22 @@ const page = async ({ params }) => {
     slug: product.slug,
     productName: product.productName,
     productPrice: product.productPrice,
-    productImage: product.productImage[0].thumb,
+    productImage:product.productImage.map(img => ({
+      thumb: img.thumb,
+      large: img.large
+    })),
   };
   return (
     <main>
       <ProductSchema product={product} />
-      <BreadcrumbSchema />
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-12">
-        <div className='flex justify-center border border-gray-400'>
-          <Image
-            src={product?.productImage[0].large}
-            width={400}
-            height={400}
-            alt={product.productName}
-            priority
-          />
-        </div>
+      {simplifiedProduct.productImage && simplifiedProduct.productImage.length > 0 ? (
+            <ProductImage productImages={simplifiedProduct?.productImage} productName={simplifiedProduct.productName} />
+          ) : (
+            <div className="flex justify-center items-center h-full">
+              <p className="text-gray-500">{p('no_image')}</p>
+            </div>
+          )}
         <div>
           <h1 className='font-extrabold uppercase text-fuchsia-900 text-2xl sm:text-3xl lg:text-4xl'>{product.productName}</h1>
           <p className='text-lg sm:text-xl lg:text-2xl text-gray-400'>{p('weight_loss')}</p>
