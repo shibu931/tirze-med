@@ -17,7 +17,7 @@ import ProductImage from '@/components/ProductPage/ProductImage';
 import { currency } from '@/lib/constants/commonName';
 
 export async function generateMetadata({ params }) {
-  const { slug } = await params;
+  const { slug,locale } = await params;
   const { data: product } = await getProduct(slug);
   const t = await getTranslations('Product_page');
   return {
